@@ -133,7 +133,7 @@ Python：3.8, 3.9, 3.10, 3.11
 显卡：支持CUDA的NVIDIA GPU（可选，可加速），但已针对CPU进行优化  
 🚀 快速开始  
 1. 克隆仓库  
-git clone https://github.com/your-username/WisdomTooth-Analysis-System.git
+git clone https://github.com/Jeff-xuanjin/WisdomTooth-Analysis-System.git
 cd WisdomTooth-Analysis-System
 2. 创建虚拟环境（推荐）  
 conda create -n dental_software python=3.8.20
