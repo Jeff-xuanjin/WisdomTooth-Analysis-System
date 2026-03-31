@@ -1,0 +1,32 @@
+{
+    "python.defaultInterpreterPath": "D:\\ANACONDA\\envs\\dental_software\\python.exe",
+    "python.condaPath": "D:\\ANACONDA\\Scripts\\conda.exe",
+    // ✅ 关键设置：强制修改终端的 PATH
+    "terminal.integrated.env.windows": {
+        "PATH": "D:\\ANACONDA\\envs\\dental_software;D:\\ANACONDA\\envs\\dental_software\\Scripts;D:\\ANACONDA\\Scripts;${env:PATH}"
+    },
+    // ✅ 让终端启动时自动激活环境
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    // ✅ 指定终端类型
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "D:\\ANACONDA\\Scripts\\activate.bat && conda activate dental_software"
+    ],
+    // 其他设置
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:conda",
+            "packageManager": "ms-python.python:conda"
+        }
+    ]
+}

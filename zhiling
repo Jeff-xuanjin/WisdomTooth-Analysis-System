@@ -1,0 +1,1 @@
+$env:PATH = "D:\ANACONDA\envs\dental_software;D:\ANACONDA\envs\dental_software\Scripts;D:\ANACONDA\Scripts;" + $env:PATH
